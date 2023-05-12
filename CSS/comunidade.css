@@ -1,0 +1,46 @@
+footer{
+position: absolute;
+width: 1440px;
+height: 485px;
+left: 0px;
+top: 0px;
+
+background: #2B2B39;
+}
+
+#end{
+position: absolute;
+display: flex;
+width: 1440px;
+height: 96px;
+left: 0px;
+top: 389px;
+
+background: #20202D;
+
+justify-content: space-between;
+align-items: center;
+}
+
+#end-text{
+width: 161px;
+height: 14px;
+
+margin-left: 135px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+
+color: #F6F6F6;
+}
+
+#end-social{
+    margin-right: 135px;
+}
+
+#end-social img{
+    margin: 4px;
+}
