@@ -1,3 +1,7 @@
+*{
+    margin:0px;
+}
+
 #comunidade{
     position: absolute;
     width: 1440px;
@@ -58,114 +62,61 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
-    /* or 175% */
 
     text-align: center;
 
     color: #656464;
 }
 
-#card6{
+#community-wrapper{
+    display: flex;
+
     position: absolute;
-    width: 522px;
-    height: 182px;
+    width: 1132px;
+    height: 678px;
     left: 176px;
     top: 262px;
-    
+
+    flex-wrap: wrap;
+}
+
+.community-card{
+    display: flex;
+    width: 522px;
+    height: 182px;
     background: #FFFFFF;
-    box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
     border-radius: 14px;
+    transition: 0.5s;
+    margin: 22px;
 }
 
-#card6 img{
-    position: fixed;
-    left: 216px;
-    top: 302px;
+.community-card:hover{
+    box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
 }
 
-#card6 h2{
-    position: fixed;
-    width: 209px;
-    height: 26px;
-    left: 318px;
-    top: 308px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 26px;
-
-    color: #2F2C4A;
+.community-card img{
+    position:absolute;
+    display: flex;
+    margin-top: 29.5px;
+    margin-left: 19.9px;
 }
 
-#card6 p{
-    position: fixed;
+.community-card-text{
+    margin-top: 46px;
+    margin-left: 142px;
+}
+
+.card-p{
+    display: flex;
+    margin-top: 14px;
     width: 315px;
     height: 52px;
-    left: 318px;
-    top: 348px;
-
+    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-
+    
     color: #656464;
-}
-
-#card5{
-    position: absolute;
-    width: 522px;
-    height: 182px;
-    left: 176px;
-    top: 488px;
-
-    background: #FFFFFF;
-    border-radius: 14px;
-}
-
-#card4{
-    position: absolute;
-    width: 522px;
-    height: 182px;
-    left: 176px;
-    top: 714px;
-
-    background: #FFFFFF;
-    border-radius: 14px;
-}
-
-#card3{
-    position: absolute;
-    width: 522px;
-    height: 182px;
-    left: 742px;
-    top: 262px;
-
-    background: #FFFFFF;
-    border-radius: 14px;
-}
-
-#card2{
-    position: absolute;
-    width: 522px;
-    height: 182px;
-    left: 742px;
-    top: 488px;
-
-    background: #FFFFFF;
-    border-radius: 14px;
-}
-
-#card1{
-    position: absolute;
-    width: 522px;
-    height: 182px;
-    left: 742px;
-    top: 714px;
-
-    background: #FFFFFF;
-    border-radius: 14px;
 }
