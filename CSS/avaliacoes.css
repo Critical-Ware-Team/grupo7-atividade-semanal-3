@@ -1,0 +1,64 @@
+.Rating{
+    display: flex;
+    margin-left: 135px;
+    margin-top: 46px;
+    font-size: 20px;
+    color: #0A093D;
+    align-content: center;
+    flex-direction: column;
+}
+.imagemrating{
+    display: flex;
+    gap: 12.62px;
+}
+.imgrating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: fit-content;
+}
+.imgrating img{
+    width: 24px;
+    height: 24px;
+}
+
+.meio{
+    display: flex;
+    margin: 0px -6px;
+}
+
+.members{
+    display: flex;
+    gap: 5px;
+}
+.members p{
+    margin: 0px;
+}
+
+#frase{
+    display: flex;
+    color: #217BF4;
+    margin-left: 16px;
+}
+
+.membros{
+    display: flex;
+    align-content: center;
+    color: #5D5B70;
+}
+
+.entrar{
+    display: flex;
+    color: #217BF4;
+    font-style: normal;
+}
+
+.Awards{
+    display: flex;
+    margin-left: 135px;
+    margin-top: 46px;
+    font-size: 20px;
+    color: #0A093D;
+    align-content: center;
+    flex-direction: column;
+}
