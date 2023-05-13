@@ -3,21 +3,21 @@
 }
 
 #comunidade{
-    position: absolute;
+    /* position: absolute; */
     width: 1440px;
     height: 1069px;
-    left: 0px;
-    top: 0px;
+    /* left: 0px;
+    top: 0px; */
     
     background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
 }
 
 #comunidade h5{
-    position: absolute;
+    /* position: absolute; */
     width: 135px;
     height: 18px;
-    left: 653px;
-    top: 60px;
+    /* left: 653px;
+    top: 60px; */
 
     font-family: 'Inter';
     font-style: normal;
@@ -32,11 +32,11 @@
 }
 
 #comunidade h1{
-    position: absolute;
+    /* position: absolute; */
     width: 441px;
     height: 36px;
-    left: 500px;
-    top: 87px;
+    /* left: 500px;
+    top: 87px; */
 
     font-family: 'Inter';
     font-style: normal;
@@ -51,11 +51,11 @@
 }
 
 #comunidade p{
-    position: absolute;
+    /* position: absolute; */
     width: 421px;
     height: 56px;
-    left: 509px;
-    top: 142px;
+    /* left: 509px;
+    top: 142px; */
 
     font-family: 'Inter';
     font-style: normal;
@@ -71,11 +71,11 @@
 #community-wrapper{
     display: flex;
 
-    position: absolute;
+    /* position: absolute; */
     width: 1132px;
     height: 678px;
-    left: 176px;
-    top: 262px;
+    /* left: 176px;
+    top: 262px; */
 
     flex-wrap: wrap;
 }
@@ -95,7 +95,7 @@
 }
 
 .community-card img{
-    position:absolute;
+    /* position:absolute; */
     display: flex;
     margin-top: 29.5px;
     margin-left: 19.9px;
