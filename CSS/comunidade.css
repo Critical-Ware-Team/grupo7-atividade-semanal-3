@@ -1,12 +1,7 @@
 #comunidade{
-    background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
-    position: absolute;
-    left: 0px;
-    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 135px;
     
 }
 #comunidade h5{
@@ -45,8 +40,10 @@
 #community-wrapper{
     display: flex;
     flex-wrap: wrap;
+    gap: 44px;
+    justify-content: space-around;
+    width: fit-content;
 }
-
 .community-card{
     display: flex;
     width: 522px;
@@ -54,24 +51,10 @@
     background: #FFFFFF;
     border-radius: 14px;
     transition: 0.5s;
-    margin: 22px;
 }
-
 .community-card:hover{
     box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
 }
-
-.community-card img{
-    display: flex;
-    /* margin-top: 29.5px;
-    margin-left: 19.9px; */
-}
-
-.community-card-text{
-    /* margin-top: 46px;
-    margin-left: 142px; */
-}
-
 .card-p{
     display: flex;
     margin-top: 14px;
@@ -83,4 +66,12 @@
     font-size: 16px;
     line-height: 26px;
     color: #656464;
+}
+#fundo-comunidade{
+    background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
+    position: absolute;
+    z-index: -1;
+    left: 0px;
+    width: 100vw;
+    height: 1069px;
 }
