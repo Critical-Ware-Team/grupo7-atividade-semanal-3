@@ -1,6 +1,7 @@
 #noticias {
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 100px 135px;
 }
 
@@ -11,6 +12,7 @@
     text-align: center;
     color: #217BF4;
     margin-bottom: 0px;
+    width: min-content;
 }
 
 .titulo {
