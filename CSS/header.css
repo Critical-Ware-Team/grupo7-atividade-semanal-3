@@ -1,17 +1,18 @@
 header{
     display: flex;
     align-items: center;
-    margin-left: 135px;
+    justify-content: space-between;
     border-bottom: 1px solid #217cf422;
-    padding: 20px;
-    margin: 0;
+    padding: 20px 0px;
+}
+header nav{
+    position: relative;
+    left: -20%;
 }
 
 .lista{
     display: flex;
     list-style-type: none;
-    padding-left: 0;
-    margin-left: 72px;
     justify-content: space-around;
     gap: 35px;
 }
@@ -27,8 +28,6 @@ header{
 
 .botaohead{
     display: flex;
-    margin-left: 526px;
-    margin-right: 135px;
     width: 123px;
     height: 50px;
     background: #217BF4;
