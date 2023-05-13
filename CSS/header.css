@@ -1,10 +1,8 @@
-.cabecalho{
+header{
     display: flex;
     align-items: center;
     margin-left: 135px;
-    background-color: #217cf408;
-    border: 1px solid #217cf408;
-    width: 1440px;
+    border-bottom: 1px solid #217cf422;
     padding: 20px;
     margin: 0;
 }
