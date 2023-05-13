@@ -42,6 +42,7 @@
 .boxtitle{
     font-weight: 600;
     font-size: 20px;
+    width: 70%;
     line-height: 32px;
     margin-right: 50%;
     align-items: center;
@@ -72,12 +73,19 @@
     text-align: center;
 }
 
+.containerline{
+    display: flex;
+}
+
+.containertxt{
+    align-items: center;
+}
+
 .line{
     border: 2px solid #FFAF2E;
     width: 39px;
     height: 0px;
+    position: relative;
+    top: 35px;
+    margin-right: 10px;
 }
-
-/*background-color: transparent;
-box-top = yellow;
-<div class:"line">*/
