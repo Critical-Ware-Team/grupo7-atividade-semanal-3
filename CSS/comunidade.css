@@ -1,0 +1,122 @@
+*{
+    margin:0px;
+}
+
+#comunidade{
+    position: absolute;
+    width: 1440px;
+    height: 1069px;
+    left: 0px;
+    top: 0px;
+    
+    background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
+}
+
+#comunidade h5{
+    position: absolute;
+    width: 135px;
+    height: 18px;
+    left: 653px;
+    top: 60px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+
+    color: #217BF4;
+}
+
+#comunidade h1{
+    position: absolute;
+    width: 441px;
+    height: 36px;
+    left: 500px;
+    top: 87px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+
+    color: #0A093D;
+}
+
+#comunidade p{
+    position: absolute;
+    width: 421px;
+    height: 56px;
+    left: 509px;
+    top: 142px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+    text-align: center;
+
+    color: #656464;
+}
+
+#community-wrapper{
+    display: flex;
+
+    position: absolute;
+    width: 1132px;
+    height: 678px;
+    left: 176px;
+    top: 262px;
+
+    flex-wrap: wrap;
+}
+
+.community-card{
+    display: flex;
+    width: 522px;
+    height: 182px;
+    background: #FFFFFF;
+    border-radius: 14px;
+    transition: 0.5s;
+    margin: 22px;
+}
+
+.community-card:hover{
+    box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+}
+
+.community-card img{
+    position:absolute;
+    display: flex;
+    margin-top: 29.5px;
+    margin-left: 19.9px;
+}
+
+.community-card-text{
+    margin-top: 46px;
+    margin-left: 142px;
+}
+
+.card-p{
+    display: flex;
+    margin-top: 14px;
+    width: 315px;
+    height: 52px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    
+    color: #656464;
+}
